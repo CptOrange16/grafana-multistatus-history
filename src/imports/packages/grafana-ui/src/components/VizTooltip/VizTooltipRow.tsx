@@ -4,9 +4,9 @@ import * as React from 'react';
 
 import { GrafanaTheme2 } from '@grafana/data';
 
-import { useStyles2 } from '../../themes';
-import { InlineToast } from '../InlineToast/InlineToast';
-import { Tooltip } from '../Tooltip';
+import { Tooltip, useStyles2, InlineToast } from '@grafana/ui';
+//import { InlineToast } from '../InlineToast/InlineToast';
+//import { Tooltip } from '../Tooltip';
 
 import { ColorIndicatorPosition, VizTooltipColorIndicator } from './VizTooltipColorIndicator';
 import { ColorPlacement, VizTooltipItem } from './types';

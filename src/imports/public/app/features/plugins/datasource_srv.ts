@@ -17,13 +17,13 @@ import {
   TemplateSrv,
 } from '@grafana/runtime';
 import { ExpressionDatasourceRef, isExpressionReference } from '@grafana/runtime/src/utils/DataSourceWithBackend';
-import appEvents from 'app/core/app_events';
-import config from 'app/core/config';
+import appEvents from 'imports/public/app/core/app_events';
+import config from 'imports/public/app/core/config';
 import {
   dataSource as expressionDatasource,
   instanceSettings as expressionInstanceSettings,
-} from 'app/features/expressions/ExpressionDatasource';
-import { ExpressionDatasourceUID } from 'app/features/expressions/types';
+} from 'imports/public/app/features/expressions/ExpressionDatasource';
+import { ExpressionDatasourceUID } from 'imports/public/app/features/expressions/types';
 
 import { importDataSourcePlugin } from './plugin_loader';
 

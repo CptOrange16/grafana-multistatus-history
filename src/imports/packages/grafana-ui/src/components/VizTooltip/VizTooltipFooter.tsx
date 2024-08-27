@@ -2,8 +2,7 @@ import { css } from '@emotion/css';
 
 import { Field, GrafanaTheme2, LinkModel } from '@grafana/data';
 
-import { Button, ButtonProps, DataLinkButton, Stack } from '..';
-import { useStyles2 } from '../../themes';
+import { useStyles2, Button, ButtonProps, DataLinkButton, Stack } from '@grafana/ui';
 
 interface VizTooltipFooterProps {
   dataLinks: Array<LinkModel<Field>>;

@@ -14,7 +14,7 @@ import { getTemplateSrv, locationService } from '@grafana/runtime';
 import { safeStringifyValue } from 'imports/public/app/core/utils/explore';
 
 import { getState } from '../../store/store';
-import { StoreState } from '../../types';
+import { StoreState } from '../../types/store';
 import { TimeSrv } from '../dashboard/services/TimeSrv';
 
 import { variableAdapters } from './adapters';
